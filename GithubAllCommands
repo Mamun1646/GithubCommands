@@ -25,7 +25,23 @@ $ git reset --hard comments : all back with removing file
 
 
 
-<---Branching Merge Check
+<---Branching Merge Check---->
+$ git branch   comments : showing all branch
+$ git branch newBranchName Example : git branch development, Comments : create new branch . All Files are copy to new file.
+$ git checkout development comments : Checkout exit file and switch to the new file.
+$ git merge main -m "Merging with main " comments : merged all file which changed in main file come to development file.
+
+
+<-----Remote Push fetch Pull ----------->
+$ git push origin main     comments : all file pushed on main branch on github NB: Before pushinf Have to commint all file
+$git fetch comments : github files changes file will be come on local file.
+$ git pull comments : github all file will be come on local file.
+
+
+
+<-----Finally ----->
+
+
 
 
 
