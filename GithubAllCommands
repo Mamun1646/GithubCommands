@@ -1,0 +1,31 @@
+$ mkdir folderName   exp: mkdir gitone comments: gitone file will be created.
+$ touch filename.extension exp : touch one.txt comments: one.txt file will be created.
+$ git init comments : if we want to accesss on git we will simple do this comment.
+<------------------REMOTE Connection----------->
+$ git clone URL comments : by doing this All Repo will be connected to our local 
+$ git status comments : we can see all changes in GIT
+$ git add --all comments: all file go to the stage
+$ git add -A Comments : Same as previous one
+$ git add . Comments : exiting folder file go to the stage
+$ git reset Comments : all file will be go to previous stage
+$ git add * comments : add new file go to the stage but deleted dosnot go to stage
+
+
+
+<----Commited ---->
+Step 1: First All File Send to the stage
+Step 2: Then Commit
+$ git commit -m "Message"
+$ git reset Head~  comments : Comminting file will be go to working Stage
+$ git reset --hard comments : all back with removing file
+
+<-------Remove --------->
+
+
+
+
+
+<---Branching Merge Check
+
+
+
